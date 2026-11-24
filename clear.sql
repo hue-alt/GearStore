@@ -1,5 +1,11 @@
 drop sequence if exists test_sequence;
-
+drop table if exists kit_items cascade;
+drop table if exists kit_definitions cascade;
+drop table if exists equipment_units_history cascade;
+drop table if exists equipment_units cascade;
+drop table if exists pricing_rules cascade;
+drop table if exists equipment_models_history cascade;
+drop table if exists equipment_models cascade;
 drop table if exists technician_certifications cascade;
 drop table if exists technicians cascade;
 drop table if exists business_customers cascade;
